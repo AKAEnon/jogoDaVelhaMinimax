@@ -45,7 +45,7 @@ public class Principal {
                     if (checarFimDeJogo())
                         return;
 
-                    // Jogada da IA (O)
+                    
                     int melhorMovimento = melhorJogada();
                     if (melhorMovimento != -1) {
                         botoes[melhorMovimento].setText("O");
